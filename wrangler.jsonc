@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/schema.json",
+  "name": "mermaid-live-editor",
+  "compatibility_date": "2025-01-22",
+  "account_id": "f9b1e1e2cf50cca79a58e395b6084239",
+  "routes": [{ "pattern": "mermaid.uuid.rocks", "custom_domain": true }],
+  "assets": {
+    "directory": "./docs",
+    "not_found_handling": "single-page-application"
+  }
+}
